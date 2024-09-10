@@ -49,7 +49,7 @@ Y= A⊕B
 The 'Exclusive-NOR' gate circuit does the opposite to the EX-OR gate. It will give a low output if either, but not both of its two inputs are high. The symbol is an EX-OR gate with a small circle on the output. The small circle represents inversion.
 Y= A⊕B
 
-*Procedure* 
+## *Procedure* 
 
 1.	Type the program in Quartus software.
 
@@ -62,15 +62,15 @@ Y= A⊕B
 5.	For different input combinations generate the timing diagram.
 
 
-*PROGRAM*
-
-Program for logic gates and verify its truth table
-in quartus using Verilog programming
+## *PROGRAM*
+```
+Program for logic gates and verify its truth
+table in quartus using Verilog programming
 
  Developed by: MANI SRI LATHA.M
  RegisterNumber: 212223110025
  
-module ramya(a,b,c,d,e,x,y,z);
+module exp1(a,b,c,d,e,x,y,z);
 input a,b;
 output c,d,e,x,y,z;
 assign c = a&b;
@@ -80,13 +80,12 @@ assign x = ~(a&b);
 assign y = ~(a&b);
 assign z = ~(a&b);
 endmodule
-
-*RTL realization Output:* 
+```
+## *RTL realization Output:* 
 ![Screenshot 2024-08-29 144546](https://github.com/user-attachments/assets/5f26207d-4966-4fbc-aa01-99a5d210c9d1)
 
-*RTL*
+## *RTL*
 ![image](https://github.com/user-attachments/assets/b4487092-0a24-4dd6-aa82-92710d55c275)
 
-*Result:*
-
+## *Result:*
 The program is verified successfully using the software quartus prime
